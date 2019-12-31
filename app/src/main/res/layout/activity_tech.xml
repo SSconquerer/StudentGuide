@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".tech">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="179dp"
+        app:srcCompat="@drawable/techno" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1D6CB8"
+        android:gravity="center_horizontal"
+        android:text="TECHNOCRACY"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="522dp"
+        android:background="@drawable/bg6"
+        android:text="The TechnoCracy is the students’ technical committee of NIT Raipur.  It was a seed sown in 2007.The TechnoCracy remains active throughout  the year and conducts various workshops like on robotics, IOT (Internet Of Things),  seminars by eminent personalities and guest lectures by alumni.  The TechnoCracy is known to organize the Annual Science and Technical Festival of NIT Raipur. The vision of TechnoCracy is to bring out the technical thirst in every student through their  innovative ideas and help them discover the concealed, untapped avenues of science and technology.  Since its inception, The TechnoCracy has been working on providing the pathways to young minds  to model their fascinations into reality and this year, The Technocracy will be delivering even more!"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+</LinearLayout>

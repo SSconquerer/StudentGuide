@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg7"
+    android:orientation="vertical"
+    tools:context=".sahyog">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/sahyogg" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4C7527"
+        android:gravity="center_horizontal"
+        android:text="SHAYOG"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg6"
+        android:text="SAHYOG is a student body of NIT Raipur, with the primary objective of providing constructive and positive interaction, guidance to student community, and it also serves as the bridge between the students and counselling cell. Mentoring is a particular form of relationship designed to provide personal and professional support to an individual. The mentoring relationship provides a developmental opportunity for both parties and can thus be of mutual benefit. In a nutshell, a student mentor’s role may be perceived to be facilitative, supportive and developmental for the student community in general and the first year students in particular."
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+</LinearLayout>

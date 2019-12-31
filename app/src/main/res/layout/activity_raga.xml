@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".raga">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        app:srcCompat="@drawable/raga" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#212121"
+        android:gravity="center_horizontal"
+        android:text="RAAGA"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="543dp"
+        android:background="@drawable/bg7"
+        android:text="NIT Raipur’s music club, RAAGA, was started in 2009 with the support of Director, Dean Students’ Welfare, Dr. S. Sanyal as Professor incharge and Dr. Ayush Khare as Faculty Incharge. It has been working continuously since then and has been successful in its aim which is to provide a platform to the students who are interested in music. Every year, Team Raaga give its contribution in every cultural event including Independence Day, Republic Day, Alumni-Meet, Eclectika’s Cult Nite, etc. Raaga is best known for organizing annual music eve – Shruti."
+        android:textColor="#212121"
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
+</LinearLayout>

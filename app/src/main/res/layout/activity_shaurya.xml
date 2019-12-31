@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".shaurya">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="152dp"
+        app:srcCompat="@drawable/shaurya" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#750404"
+        android:gravity="center_horizontal"
+        android:text="SHAURYA"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="522dp"
+        android:background="@drawable/bg6"
+
+        android:text="Zeal is like a determined image of relentless flying in the confident eyes of an infancy bird. You can bind it for a moment but certainly it can never be tied into shackles for a lifetime. Sports Committee NIT Raipur is a similar story of unending zeal and sports enthusiasm pulsating in the veins of sophomores of the 2010-14 batch which leads to its formation. Students with proven technical credentials unite with a common aim to nurture the sportsman inside every one of us and to give a platform where quality of sportsmanship can be woven in each one of us. With its functioning in its 3rd year, and under the guidance of Sports In charge Dr. Sudhakar Pandey and Sports Officer Dr. Alok Dubey the committee organises events like Samar( the annual sports fest), Sports ACKTV, Inter-branch tournaments, etc."
+        android:textColor="#525252"
+        android:textSize="17sp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>

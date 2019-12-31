@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nicebg"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/collegeimage" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/amarante"
+        android:onClick="tapped"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="CLUBS AND COMMITEES" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/amarante"
+        android:onClick="tap"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="EVENTS" />
+
+    <Button
+        android:id="@+id/downloadsButton"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/amarante"
+        android:onClick="downloadsOnClick"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="DOWNLOADS SECTION" />
+
+    <Button
+        android:id="@+id/departmentsButton"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/amarante"
+        android:onClick="deptOnCLick"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="DEPARTMENTS" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/amarante"
+        android:onClick="mapOnClick"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="COLLEGE MAP" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/amarante"
+        android:onClick="notesOnClick"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="IMPORTANT NOTES" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/amarante"
+        android:onClick="uploadOnClick"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="UPLOAD DOCUMENTS" />
+</LinearLayout>
+</ScrollView>

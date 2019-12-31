@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".gogreen">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="187dp"
+        android:layout_gravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/gogreen"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66AD27"
+        android:gravity="center_horizontal"
+        android:text="GO GREEN"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg7"
+        android:text="GoGreen,TheEco-social committee of NITRaipur was founded with the purpose of educating the student population about the environmental perils that awaits us innear future.If the present youth doesnot takeup a course of action,these problems will soon eclipse the whole of the earth.So we take it as a responsibility  to make sure present you thare ready to turn up against any ill treatment to the mother Earth and be responsible themselves.Our visionis to be the pioneers of environmental justice andawareness in India and be the oath keepers of the responsibility and onus that is rested upon mankind to maintain nature’s integrity and purity to its original form."
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".nrityam">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+        app:srcCompat="@drawable/nrityam" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EE0E0E"
+        android:gravity="center_horizontal"
+        android:text="NRITYAM"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="475dp"
+        android:background="@drawable/bg6"
+        android:text="Ever since it’s foundation in 2016, Nrityam – the Dance Club of the college has been functioning very actively to increase the level of various dance forms in the college. Nrityam works with the objective of promoting dance as an art at different platforms. It considers dance important, as it not only instils confidence and improves the personality of an individual but also helps our cultural heritage to sustain and adopt change. Therefore, the club promotes budding dancers and provides them with the best stages. Further, we ensure that students take dance as a break from regular routines, groove to the beats, and feel refreshed after a hectic day.  "
+        android:textColor="#212121"
+        android:textColorHint="#000A0808"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+</LinearLayout>

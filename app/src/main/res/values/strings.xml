@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Student Guide</string>
+    <string name="SignIn">Sign In</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="Username">Username</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="confirmpassword">ConfirmPassword</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="title_department_list">Departments</string>
+    <string name="title_department_detail">Department Detail</string>
+
+</resources>

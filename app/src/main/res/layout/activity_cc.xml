@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".cc">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="202dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/cc" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#212121"
+        android:gravity="center_horizontal"
+        android:text="SANSKRITI"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:background="@drawable/bg6"
+        android:text="CULTURAL COMMITTEE of NIT Raipur is one of most active committee of the college. Organising the Cultural events or Programs in college is the part of their work.  Furthermore,celebration of special days like Independence Day,Republic Day, Teacher’s Day,Engineer’s Day etc is organised and supervised by the members (students) and the faculties associated with the Cultural Committee.  Eclectika , the cultural festival of NIT Raipur is widely renowned as the largest fest in central India. With a participation roster exceeding over 1 hundred colleges across the academic demographic of India, Eclectika is a glorious rendition of the ideals of innovation, conception and determination to achieve high heights of success, and is a phenomenal platform to nurture and inspire talent, while uniting a wide and diverse"
+        android:textAllCaps="false"
+        android:textSize="17sp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>
